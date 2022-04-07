@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC8037BD27FF998D00B77193 /* Test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8037BC27FF998D00B77193 /* Test1ViewController.swift */; };
 		EC8F404227FD6E1D00ECA078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F404127FD6E1D00ECA078 /* AppDelegate.swift */; };
 		EC8F404427FD6E1D00ECA078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F404327FD6E1D00ECA078 /* SceneDelegate.swift */; };
-		EC8F404627FD6E1D00ECA078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F404527FD6E1D00ECA078 /* ViewController.swift */; };
 		EC8F404927FD6E1D00ECA078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F404727FD6E1D00ECA078 /* Main.storyboard */; };
 		EC8F404B27FD6E2F00ECA078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F404A27FD6E2F00ECA078 /* Assets.xcassets */; };
 		EC8F404E27FD6E2F00ECA078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F404C27FD6E2F00ECA078 /* LaunchScreen.storyboard */; };
+		ECF3100727FE224100E16844 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3100627FE224100E16844 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC8037BC27FF998D00B77193 /* Test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1ViewController.swift; sourceTree = "<group>"; };
 		EC8F403E27FD6E1D00ECA078 /* MAD_Ind04_Sosa_Aaron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD_Ind04_Sosa_Aaron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8F404127FD6E1D00ECA078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8F404327FD6E1D00ECA078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC8F404527FD6E1D00ECA078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC8F404827FD6E1D00ECA078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC8F404A27FD6E2F00ECA078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8F404D27FD6E2F00ECA078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8F404F27FD6E2F00ECA078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF3100627FE224100E16844 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				EC8F404127FD6E1D00ECA078 /* AppDelegate.swift */,
 				EC8F404327FD6E1D00ECA078 /* SceneDelegate.swift */,
-				EC8F404527FD6E1D00ECA078 /* ViewController.swift */,
 				EC8F404727FD6E1D00ECA078 /* Main.storyboard */,
+				ECF3100627FE224100E16844 /* TableViewController.swift */,
+				EC8037BC27FF998D00B77193 /* Test1ViewController.swift */,
 				EC8F404A27FD6E2F00ECA078 /* Assets.xcassets */,
 				EC8F404C27FD6E2F00ECA078 /* LaunchScreen.storyboard */,
 				EC8F404F27FD6E2F00ECA078 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8F404627FD6E1D00ECA078 /* ViewController.swift in Sources */,
 				EC8F404227FD6E1D00ECA078 /* AppDelegate.swift in Sources */,
+				EC8037BD27FF998D00B77193 /* Test1ViewController.swift in Sources */,
 				EC8F404427FD6E1D00ECA078 /* SceneDelegate.swift in Sources */,
+				ECF3100727FE224100E16844 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +306,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sosa.MAD-Ind04-Sosa-Aaron";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD-Ind04-Sosa-Aaron";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sosa.MAD-Ind04-Sosa-Aaron";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD-Ind04-Sosa-Aaron";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
